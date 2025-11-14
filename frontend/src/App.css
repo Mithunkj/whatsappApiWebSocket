@@ -1,0 +1,61 @@
+
+.container{
+  padding: 20px;
+  margin: 10px;
+}
+
+.cardTop{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+}
+
+.button{
+  padding: 10px;
+  background-color: rgb(84, 84, 205);
+  margin: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+.button:hover{
+  background-color: rgb(126, 126, 209);
+  /* box-shadow: 10px 10px 10px rgb(84, 84, 205); */
+}
+
+.input{
+  padding: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.clientMessage{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.clientServer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.message{
+  width: 300px;
+}
+
+.templateCard{
+  padding: 20px;
+}
+
+.inputForm{
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
